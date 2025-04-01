@@ -6,14 +6,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Ejecutar npm install" 
+                echo "Ejecutando npm install" 
                 sh 'npm install'
             }
         }
 
         stage('Test') {
             steps {
-                echo "Ejecutar npm test push" 
+                echo "Ejecutando npm test push" 
                 sh 'npm test'
             }
         }
