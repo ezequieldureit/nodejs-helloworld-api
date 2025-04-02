@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'nodejs'
+        nodejs 'nodejs-v18' //Se utiliza la versión 18 de Node JS definida en Jenkins.
     }
     stages {
         stage('Build') {
