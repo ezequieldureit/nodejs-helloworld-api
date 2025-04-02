@@ -30,21 +30,3 @@ curl http://localhost:3000
 ```
 # test job
 
-## **Desafio 2**  
-
-### **Requisitos**  
-- Jenkins con los plugins: Git, GitHub, NodeJS.  
-- ngrok para exponer Jenkins a internet.  
-
-### **Configuración**  
-1. **Webhook en GitHub:**  
-   - URL: `https://[TU-NGROK].ngrok.io/github-webhook/`  
-   - Eventos: `Push` y `Pull requests`.  
-
-2. **Pipeline en Jenkins:**  
-   - Clona este repositorio.  
-   - Ejecuta `npm install` y `npm test`.  
-
-### **Evidencias**  
-![Pipeline exitoso](screenshots/pipeline-success.png)  
-![Tests pasando](screenshots/test-results.png)  
